@@ -31,14 +31,52 @@
     justify-content: baseline;
     align-items: center;
 }
-
-.logo-text{
+.logotext{
     margin-left: -1.2rem;
     font-size: 20px;
-}
 
+}
 .nav-item{
     display: flex;
     gap: 2rem;
     padding: 0 4rem;
+    color: black;
+}
+.nav-item div{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-item div a{
+    color: black;
+    text-decoration: none;
+}
+.hero-section{
+    border:1px solid black ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+}
+.faded-text{
+    position: absolute;
+    font-size: 7rem;
+    color: rgb(91, 83, 72, 0.351);
+    bottom: -8%;
+    left: -5px;
+    font-weight: bold;
+
+}
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.hero-section-heading{
+    font-size: 30px;
+    
 }
